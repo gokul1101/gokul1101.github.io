@@ -469,7 +469,7 @@ section a.style:hover::after{
     line-height: 65px;
     transform: rotate(-45deg);
     font-size: 26px;
-    color: #d4af37;
+    color: #fff;
 }
 .container-box:hover .icon{
     background: #d4af37;

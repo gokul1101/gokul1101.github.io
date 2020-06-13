@@ -293,6 +293,7 @@ section a.style:hover::after{
     margin: 3rem 0;
 }
 .button .btn{
+    margin : 15px 0;
     font-family: 'Poppins', sans-serif;
     background: none;
     color: #000;
@@ -468,6 +469,7 @@ section a.style:hover::after{
     line-height: 65px;
     transform: rotate(-45deg);
     font-size: 26px;
+    color: #d4af37;
 }
 .container-box:hover .icon{
     background: #d4af37;

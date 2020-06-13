@@ -1,11 +1,8 @@
-window.addEventListener("load", function(){
-    var node = document.querySelector(".layer");
-    node.classList.add('complete');
-})
 setTimeout(function(){
+    document.querySelector(".layer").classList.add('complete');
     var loader = document.querySelector("#loader-wrapper");
     loader.style.display = "none";
-}, 2300)
+}, 1500)
 
 window.addEventListener('scroll', () =>{
     let scrollUp = document.querySelector('.scrollUp');
@@ -17,10 +14,6 @@ window.addEventListener('scroll', () =>{
         scrollUp.classList.remove("active");
     }
 })
-setTimeout(function(){
-    var loader = document.querySelector("#loader-wrapper");
-    loader.style.display = "none";
-}, 2300)
 
 function menu(){
     var showNav= document.querySelector(".nav-list");

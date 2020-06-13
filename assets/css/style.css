@@ -49,15 +49,15 @@ li{
   }
   .complete{
     animation: close 1s forwards;
-    animation-delay: 2s;
+    animation-delay: 1.5s;
   }
   .complete .left{
     animation: left 1s forwards;
-    animation-delay: 2s;
+    animation-delay: 1.5s;
   }
   .complete .right{
     animation: right 1s forwards;
-    animation-delay: 2s;
+    animation-delay: 1.5s;
   }
   @keyframes left{
     0%{
@@ -110,7 +110,6 @@ li{
     border-radius: 50%;
     border: 3px solid transparent;
     border-top-color: #e74c3c;
-
     animation: spin 3s linear infinite;
 }
 #loader:after{
@@ -123,7 +122,6 @@ li{
     border-radius: 50%;
     border: 3px solid transparent;
     border-top-color: #f9c922;
-
     animation: spin 1.5s linear infinite;
 }
 @keyframes spin{
@@ -135,7 +133,6 @@ li{
     }
 }
 
-/*  */
 
 section{
     width: 100%;
@@ -286,14 +283,12 @@ section a.style:hover::after{
 }
 .button{
     position: absolute;
-    top: 50%;
+    top: 60%;
     left: 10%;
     height: 50px;
     width: 150px;
-    margin: 3rem 0;
 }
 .button .btn{
-    margin : 15px 0;
     font-family: 'Poppins', sans-serif;
     background: none;
     color: #000;
